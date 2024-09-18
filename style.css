@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.link:hover {
+    color: #df0e62;
+    transition: .3s;
+}
+
+.svg:hover {
+    fill: #df0e62;
+    transition: .3s;
+}
+
+
+header {
+    background-color: black;
+    height: 100vh;
+    position: sticky;
+    width: 16%;
+    top: 0
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+#imagens svg {
+    fill: white;
+    height: 11px;
+    width: 13px;
+    margin: 10px 10px 0 0;
+}
+
+main {
+    width: 85%;
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#welcome {
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: brightness(60%);
+    font-family: "Quicksand";
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+#titulo {
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+}
+
+#home {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 13px
+}
+
+#photos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#biography {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#blog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#contact {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+#elit {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#imagens {
+    margin-left: 40px;
+}
+
+#fonte {
+    font-family: "Quicksand";
+}
+
+#botao {
+    text-decoration: none;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #df0e62;
+    color: white;
+    margin-top: 50px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+#lorem {
+    font-weight: 100;
+    line-height: 33px;
+    font-size: 20px;
+    color: white;
+}
+
+#fotos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+
+}
+
+#fotos div {
+    width: 33.3%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#fotos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    margin: 0.1em;
+}
+
+#fotos div:hover img {
+    opacity: 0.5;
+    filter: brightness(50%);
+}
+
+
+
+#testimonial {
+    text-align: center;
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+#testimonial h1 {
+    font-weight: 400;
+}
+
+#testimonial img {
+    border-radius: 100px;
+    height: 170px;
+    margin-top: 60px;
+}
+
+#testimonial h6 {
+    font-size: 16px;
+    font-family: "Quicksand";
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#testimonial p {
+
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 33px;
+    color: #808080;
+}
+
+#testimonial button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #1a1a1a;
+    border: #1a1a1a;
+}
+
+#bio {
+    position: relative;
+    background-color: #1a1a1a;
+    padding-left: 200px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+#bio h1 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#bio img {
+    width: 350px;
+    border-radius: 7px;
+    padding-bottom: 50px;
+}
+
+#bio p {
+    font-family: "Quicksand";
+    line-height: 30px;
+    color: #808080;
+    padding: 0;
+}
+
+#bio h3 {
+
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#espacinho {
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+#bio h4 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+#bio a {
+    text-decoration: none;
+    color: #df0e62;
+    font-weight: 500;
+}
+
+#bio ul {
+    column-count: 2;
+    line-height: 40px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: #808080;
+    list-style-type: none;
+    padding: 48px 0 112px 0;
+}
+
+#bio ul>li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bio svg{
+    fill: #8bc34a;
+    width: 20px;
+}
+
+.rosa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 4px;
+    background-color: #df0e62;
+}
+
+#blg {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+#blg h1 {
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.imgtxt {
+    display: flex;
+    line-height: 30px;
+}
+
+.imgtxt img {
+    height: 240px;
+    width: 250px;
+    object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgtxt h4 {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.imgtxt span, p {
+    padding-left: 40px;
+    font-family: "Quicksand";
+    color: #808080;
+}
+
+.imgtxt p {
+    margin-top: 10px;
+}
+
+.imgtxt a {
+    color: #df0e62;
+    text-decoration: none;
+}
+
+#numeros{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+#numeros a{
+    text-decoration: none;
+    color: #df0e62;
+}
+
+#ctt{
+    background-color: #1a1a1a;
+    padding: 200px;
+    padding-top: 100px;
+    position: relative;
+}
+
+#ctt h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+#ctt a{
+    text-decoration: none;
+    background-color: #df0e62;
+    color: white;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 190px;
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#formulario label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#formulario>div{
+    display: flex;
+    gap: 3px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+label{
+    font-family: "Quicksand";
+    font-size: 16px;
+}
+
+input{
+    font-size: 1rem;
+    padding: 6px;
+    padding-inline: 0;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+    background-color: #1a1a1a;
+    padding-top: 20px;
+}
+
+textarea{
+    font-size: 1rem;
+    outline: none;
+    padding: 6px;
+    padding-inline: 0;
+    color: white;
+    background-color: #1a1a1a;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "Quicksand";
+}
+
+    textarea::placeholder{
+        padding-top: 10px;
+    }
+
+#rodape{
+    background-color: black;
+    color: #808080;
+    padding-top: 60px;
+    text-align: center;
+    font-family: "Quicksand";
+}
+
+#rodape svg{
+    width: 16px;
+    height: 16px;
+    fill: #f23a2e;
+    top: 0;
+}
+
+#rodape a{
+    color: #df0e62;
+    text-decoration: none;
+}
